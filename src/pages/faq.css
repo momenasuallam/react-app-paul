@@ -1,0 +1,40 @@
+.css-1nl5wh {
+    margin: 1em;
+    padding: 20px 40px;
+    background-color: white;
+}
+.css-1ww4pnb {
+    font-size: 18px;
+    font-weight: 100;
+    padding: 0px;
+    margin: 0px;
+}
+.css-1jywloj {
+    font-size: 18px;
+    font-weight: 200;
+    color: rgb(173, 187, 205);
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.css-pngyth {
+    font-size: 15px;
+    margin-right: 0.5em;
+    display: inline;
+}
+.css-e4h5o6 {
+    transform: scale(1);
+}
+.css-e4h5o6 path {
+    transition: all 0.2s ease 0s;
+    fill: rgb(199, 211, 227);
+    width: 50px;
+}
+@media(min-width:768px){
+  .css-1ww4pnb {
+    font-size: 28px;
+}
+.css-1jywloj {
+    font-size: 22px;
+    margin-left: 0px;
+}
+}

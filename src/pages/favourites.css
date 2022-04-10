@@ -1,0 +1,61 @@
+.favdetails{
+
+}
+.favdetails h2{
+  font-size: 22px;
+  font-weight: 200;
+    color: rgb(173, 187, 205);
+    margin-top: 50px;
+}
+.domainnamediv{
+position: relative;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: rgb(144 171 191 / 42%) 3px 4px 20px 0px;
+    padding: 0px;
+}
+.domainnamediv::before {
+    content: "";
+    background: rgb(66, 224, 104);
+    width: 4px;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+.domainnamediv h3{
+      font-size: 18px;
+    font-weight: 100;
+    color: rgb(43, 43, 43);
+}
+.domainnamediv a{
+grid-template-columns: 1fr minmax(150px, 350px) 100px 50px 50px;
+    grid-template-rows: 39px;
+    padding: 20px;
+    overflow: hidden;
+    position: relative;
+    background: white;
+    display: grid;
+    height: auto;
+    gap: 10px;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 22px;
+    margin-bottom: 4px;
+    transition: all 0.2s ease 0s;
+    border-radius: 6px;
+    color: rgb(43, 43, 43);
+    z-index: 1;
+    text-decoration: none;
+}
+.domainnamediv a:hover{
+  text-decoration: none;
+}
+@media (min-width: 768px)
+{
+  .domainnamediv h3{
+      font-size: 28px;
+}
+}

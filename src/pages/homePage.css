@@ -1,0 +1,123 @@
+.homepage {
+  /* background-image: url(./myimgs/herobg.jpg); */
+  height: 100vh;
+  overflow: hidden;
+  /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+  background: rgb(55, 230, 206);
+  background: linear-gradient(
+    117deg,
+    rgba(29, 176, 108, 1) 26%,
+    rgba(55, 230, 206, 1) 61%
+  );
+  position: relative;
+}
+nav {
+  background-color: #37e6ce;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li {
+  display: inline-block;
+  background-color: #37e6ce;
+}
+
+nav span {
+  display: block;
+  padding: 10px 14px;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+nav span:hover {
+  background-color: #37e6ce;
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 47px; /* the height of the main nav */
+  border-top: 2px solid #fff;
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+  display: block;
+  width: 100%;
+}
+
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  float: none;
+  display: list-item;
+  position: relative;
+  padding: 4px 18px;
+}
+nav ul ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+nav ul ul li a:hover {
+  color: #1db06c;
+  text-decoration: none;
+}
+.mainhome {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.homelogo {
+  width: 265px;
+  margin-bottom: 20px;
+}
+.searchbar .search_box {
+  max-width: 500px;
+  background: #fff;
+  border-radius: 5px;
+  height: 70px;
+  display: flex;
+  box-shadow: 0 8px 6px -10px #b3c6ff;
+}
+.searchbar .search_box .search_field {
+  width: 500px;
+  height: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchbar .search_box .search_field .input {
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  font-size: 20px;
+  padding-left: 50px;
+  padding-right: 10px;
+  color: #000;
+  border-radius: 6px;
+}
+.searchbar .search_box .search_field .fas {
+  position: absolute;
+  top: 21px;
+  left: 15px;
+  font-size: 24px;
+  color: #1db06c;
+}

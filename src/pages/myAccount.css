@@ -1,0 +1,123 @@
+.sidedetails{
+    background: white;
+    box-shadow: rgb(229 236 241 / 30%) 3px 4px 6px 0px;
+    border-radius: 6px;
+    margin-bottom: 60px;
+    position: relative;
+    overflow: hidden;
+}
+.sidedetails::before{
+    left: 0px;
+    top: 0px;
+    width: 4px;
+    height: 100%;
+    display: block;
+    content: "";
+    background: rgb(202, 202, 202);
+    position: absolute;
+}
+.topinfo{
+display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(237, 237, 237);
+    box-shadow: rgb(181 177 177 / 20%) 0px 2px 4px 0px;
+    background: white;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+        padding: 20px 40px;
+}
+.topinfo img{
+    width: 42px;
+    height: 42px;
+    margin-right: 10px;
+    border-radius: 50%;
+    box-shadow: rgb(225 225 225) 2px 2px 9px 0px;
+    flex-shrink: 0;
+}
+.topinfo h2{
+font-size: 28px;
+font-weight: 100;
+    padding: 0px;
+    margin: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.topinfo a{
+display: inline-block;
+    -webkit-box-align: center;
+    align-items: center;
+    text-overflow: ellipsis;
+    min-width: 165px;
+    margin-left: auto;
+        color: rgb(82, 132, 255);
+    text-decoration: none;
+    transition: all 0.2s ease 0s;
+    position: absolute;
+    right: -10px;
+    top: 30px;
+}
+.primaryens{
+background: rgb(240, 246, 250);
+    border: 1px solid rgb(237, 237, 237);
+    border-radius: 8px;
+    margin: 20px 40px;
+    padding: 10px 15px;
+}
+.primaryens h2{
+    font-weight: 700;
+    font-size: 16px;
+    color: #37e6ce;
+    letter-spacing: 0px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.primaryens p{
+    font-weight: 300;
+    font-size: 14px;
+    color: rgb(43, 43, 43);
+    letter-spacing: 0px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    max-width: 768px;
+    hyphens: auto;
+}
+.primaryens h6{
+color: rgb(245, 166, 35);
+  font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    max-width: 768px;
+    hyphens: auto;
+}
+.addresdiv{
+display: flex;
+    padding: 40px;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    background: white;
+    box-shadow: rgb(229 236 241 / 30%) 3px 4px 6px 0px;
+    border-radius: 6px;
+    margin-bottom: 40px;
+}
+.addresdiv h2{
+  color: rgb(173, 187, 205);
+    font-weight: 100;
+    margin-bottom: 0px;
+    padding: 0px;
+    margin-top: 20px;
+    text-align: center;
+    max-width: 500px;
+    font-size: 20px;
+}

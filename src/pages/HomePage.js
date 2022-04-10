@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
+import "./homePage.css";
 import logo from "../myimgs/Logo-trans.png";
 
 const HomePage = () => {
